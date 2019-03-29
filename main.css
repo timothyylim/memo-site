@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.c3 .c3-axis-x path,
+.c3 .c3-axis-x line,
+.c3 .c3-axis-y path,
+.c3 .c3-axis-y line {
+    stroke: gray;
+}
+
+.c3 .c3-axis-x g,
+.c3 .c3-axis-y g,
+.c3 .c3-legend-item-data text {
+    fill: gray;
+}
+
+/* https://github.com/c3js/c3/issues/210 */
