@@ -1,9 +1,21 @@
 body {
   background-color: black;
+
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1 {
+  font-family: 'Roboto Slab', serif;
   color: white;
+  text-align: center;
+}
+
+#chart {
+  text-align: center;
 }
 
 .c3 .c3-axis-x path,
